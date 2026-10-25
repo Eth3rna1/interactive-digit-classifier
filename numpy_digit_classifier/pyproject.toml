@@ -7,7 +7,9 @@ authors = [
     { name = "Gabriel Mendieta Hernandez", email = "gmendieta4109@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.4",
+]
 
 [project.scripts]
 numpy-digit-classifier = "numpy_digit_classifier:main"
